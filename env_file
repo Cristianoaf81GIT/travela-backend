@@ -1,0 +1,7 @@
+##  change this file and simple rename it to .env
+##  warning: do not put quotations over values
+DBPASS=your password here
+DBUSER=your database user here
+DBHOST=localhost or mongo server ip
+DBPORT=mongodb server port
+DBAUTHSOURCE=mongo auth database here

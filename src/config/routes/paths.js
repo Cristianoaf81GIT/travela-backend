@@ -1,0 +1,1 @@
+exports.NEW_TRAVEL = '/travel'

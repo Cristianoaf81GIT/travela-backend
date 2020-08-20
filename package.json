@@ -1,0 +1,39 @@
+{
+  "name": "travela",
+  "version": "1.0.0",
+  "description": "travela travel agency forms",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "NODE_ENV=production npx pm2 start src/index.js --name travela-backend",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cristianoaf81GIT/travela-backend.git"
+  },
+  "keywords": [
+    "travel",
+    "agency",
+    "travela",
+    "forms",
+    "express",
+    "mongodb"
+  ],
+  "author": "cristiano alexandre de faria",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/Cristianoaf81GIT/travela-backend/issues"
+  },
+  "homepage": "https://github.com/Cristianoaf81GIT/travela-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "consign": "^0.1.6",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "moment": "^2.27.0",
+    "mongoose": "^5.10.0",
+    "pm2": "^4.4.1",
+    "pug": "^3.0.0"
+  }
+}
